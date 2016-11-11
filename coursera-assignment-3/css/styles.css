@@ -40,7 +40,9 @@ body {
 }
 .navbar-header button.navbar-toggle {
   clear: both;
-  margin-top: -30px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 /* END HEADER */
 
@@ -103,7 +105,6 @@ body {
   }
   .navbar-brand {
     padding-top: 10px;
-    height: 80px;
   }
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
